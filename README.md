@@ -1,8 +1,25 @@
-# React + Vite
+# Debug React D3 Animated Area
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Here's a little diddy 'bout not getting the area of this graphic to fit the line when it is animated. This repo uses vite + react. As the primary aim of this repo is debugging a specific issue around animating an area, things are hardcoded, not responsive, etc... In other words ...
 
-Currently, two official plugins are available:
+![](/public/ididntdo.jpeg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to run 
+
+install dependencies
+```bash
+npm i
+```
+
+spin up a dev server and open app in browser
+```bash
+npm run dev -- --open
+```
+
+## Where do I debug?
+
+All code is in App.jsx. Relevant code is in the useEffect. Sample data can be found in `data/data.json`.
+
+## Questions? Solutions? 
+
+You can find me in hell [@petermckeever](https://twitter.com/petermckeever)
